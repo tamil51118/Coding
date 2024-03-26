@@ -1,7 +1,8 @@
-###Leetcode Solution
+### Leetcode Solution
 
-#findDuplicate
-*Easy
+# findDuplicate
+Easy
+```
 class Solution {
     public int findDuplicate(int[] nums) {
       boolean [] num=new boolean[nums.length+1];
@@ -17,3 +18,5 @@ class Solution {
 return -1;
     }
 }
+```
+-----------------------------------------------------------------------------------------------------
